@@ -1,18 +1,18 @@
-// Static site generator for Manna's Mens Wear
+// Static site generator for Manna Mens Wear
 // Run: node build.js
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = __dirname;
-const BRAND = "Manna's Mens Wear";
-const BRAND_CAPS = "MANNA'S MENS WEAR";
+const BRAND = "Manna Mens Wear";
+const BRAND_CAPS = "MANNA MENS WEAR";
 
 const SITE = {
   email: 'admin@mannamw.in',
   phone: '+91 9422028861',
   phoneHref: 'tel:+919422028861',
   gst: '27APEPM2883E1ZT',
-  addressLine: "598/600, SHUKRAWAR PETH, SHIVAJI ROAD, PUNE, MANNA'S MENS WEAR, Pune - 411042, Maharashtra, India",
+  addressLine: "598/600, SHUKRAWAR PETH, SHIVAJI ROAD, PUNE, MANNA MENS WEAR, Pune - 411042, Maharashtra, India",
   mapsHref: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('598/600, Shukrawar Peth, Shivaji Road, Pune - 411042, Maharashtra, India'),
   facebook: 'https://www.facebook.com/',
   instagram: 'https://www.instagram.com/',
@@ -145,7 +145,7 @@ function renderHeader(currentFile, activeTop) {
       </div>
       <div class="brand">
         <a href="${relHref(currentFile, 'home')}">
-          <span class="brand-script">Manna's<sup>TM</sup></span>
+          <span class="brand-script">Manna</span>
           <span class="brand-sub">Mens Wear</span>
         </a>
       </div>

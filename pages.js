@@ -29,7 +29,7 @@ function write(file, html) {
         <a class="btn btn-gold" href="${relHref(file, 'contact')}">Request Bulk Pricing</a>
       </div>
       <div class="hero-carousel">
-        ${slideImages.map((s, i) => `<img class="hero-slide ${i === 0 ? 'active' : ''}" src="${img(file, s)}" alt="Manna's Mens Wear apparel manufacturing" />`).join('')}
+        ${slideImages.map((s, i) => `<img class="hero-slide ${i === 0 ? 'active' : ''}" src="${img(file, s)}" alt="Manna Mens Wear apparel manufacturing" />`).join('')}
         <div class="hero-dots">${slideImages.map((_, i) => `<button class="${i === 0 ? 'active' : ''}"></button>`).join('')}</div>
       </div>
     </div>
