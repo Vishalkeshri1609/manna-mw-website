@@ -145,8 +145,7 @@ function renderHeader(currentFile, activeTop) {
       </div>
       <div class="brand">
         <a href="${relHref(currentFile, 'home')}">
-          <span class="brand-script">Manna</span>
-          <span class="brand-sub">Mens Wear</span>
+          <span class="brand-script">Manna Mens Wear</span>
         </a>
       </div>
       <a class="btn" href="${relHref(currentFile, 'contact')}">Send Inquiry</a>

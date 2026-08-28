@@ -77,20 +77,11 @@ p{margin:0 0 1em;color:var(--muted);}
 .brand a{display:inline-block;}
 .brand-script{
   font-family:"Alex Brush","Brush Script MT",cursive;
-  font-size:46px;
+  font-size:38px;
   color:var(--maroon);
   line-height:1;
-  display:block;
-}
-.brand-sub{
-  display:block;
-  font-family:"Alex Brush","Brush Script MT",cursive;
-  letter-spacing:1px;
-  font-size:28px;
-  text-transform:none;
-  color:var(--maroon);
-  line-height:1;
-  margin-top:-6px;
+  white-space:nowrap;
+  display:inline-block;
 }
 
 /* ---------- Nav ---------- */
@@ -320,6 +311,7 @@ p{margin:0 0 1em;color:var(--muted);}
   .dropdown{position:static;box-shadow:none;opacity:1;visibility:visible;transform:none;display:none;padding-left:14px;border-top:none;}
   .nav-list > li.open .dropdown{display:block;}
   .site-header .container{flex-direction:column;}
+  .brand-script{font-size:30px;}
   .cat-grid,.feature-row,.gallery-grid,.feature-cards,.product-grid,.blog-grid{grid-template-columns:1fr;}
   .form-grid{grid-template-columns:1fr;}
   .hero-content h1{font-size:26px;}
