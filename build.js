@@ -8,7 +8,7 @@ const BRAND = "Manna's Mens Wear";
 const BRAND_CAPS = "MANNA'S MENS WEAR";
 
 const SITE = {
-  email: 'admin@supereditors.in',
+  email: 'admin@mannamw.in',
   phone: '+91 9422028861',
   phoneHref: 'tel:+919422028861',
   gst: '27APEPM2883E1ZT',
