@@ -75,14 +75,7 @@ p{margin:0 0 1em;color:var(--muted);}
 .search-box button{position:absolute;right:4px;top:3px;bottom:3px;width:32px;background:var(--navy);border:none;border-radius:50%;color:#fff;cursor:pointer;}
 .brand{text-align:center;}
 .brand a{display:inline-block;}
-.brand-script{
-  font-family:"Alex Brush","Brush Script MT",cursive;
-  font-size:38px;
-  color:var(--maroon);
-  line-height:1;
-  white-space:nowrap;
-  display:inline-block;
-}
+.brand-logo{height:52px;width:auto;display:block;}
 
 /* ---------- Nav ---------- */
 .site-nav{background:var(--white);border-bottom:1px solid var(--line);}
@@ -311,7 +304,7 @@ p{margin:0 0 1em;color:var(--muted);}
   .dropdown{position:static;box-shadow:none;opacity:1;visibility:visible;transform:none;display:none;padding-left:14px;border-top:none;}
   .nav-list > li.open .dropdown{display:block;}
   .site-header .container{flex-direction:column;}
-  .brand-script{font-size:30px;}
+  .brand-logo{height:40px;}
   .cat-grid,.feature-row,.gallery-grid,.feature-cards,.product-grid,.blog-grid{grid-template-columns:1fr;}
   .form-grid{grid-template-columns:1fr;}
   .hero-content h1{font-size:26px;}

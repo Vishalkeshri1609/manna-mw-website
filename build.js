@@ -145,7 +145,7 @@ function renderHeader(currentFile, activeTop) {
       </div>
       <div class="brand">
         <a href="${relHref(currentFile, 'home')}">
-          <span class="brand-script">Manna Mens Wear</span>
+          <img class="brand-logo" src="${img(currentFile, 'logo-header.png')}" alt="${BRAND}" />
         </a>
       </div>
       <a class="btn" href="${relHref(currentFile, 'contact')}">Send Inquiry</a>
